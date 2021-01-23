@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr minmax(40ch,65ch) 1fr;
+}
+
+.headline{
+    grid-column: 3/5;
+}
+
+.image{
+    grid-column: ;
+}
